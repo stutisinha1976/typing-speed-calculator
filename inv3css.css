@@ -1,0 +1,98 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 20px;
+    font-family: monospace;
+    margin: 0;
+    background-color: black;
+    color: greenyellow;
+    border: 4px solid greenyellow;
+    border-radius: 10px;
+    background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center center;
+  }
+  .container {
+    text-align: center;
+    border: 4px solid greenyellow;
+    border-radius: 10px;
+    height: 500px;
+    width:300px;
+  }
+  .container:hover{
+    box-shadow: 10px 20px 0 black;
+  }
+  #quote-container {
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+    border-radius: 10px;
+    background-color: black;
+    color: greenyellow(235, 229, 35);
+    width:300px;
+  }
+  textarea {
+    width: 250px;
+    height: 50px;
+    margin-bottom: 10px;
+    background-color:black;
+    border: 2px solid greenyellow;
+    color: greenyellow;
+    font-size:15px;
+    font-weight: 500;
+    font-family:cursive;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  textarea::placeholder 
+  {color: greenyellow;
+   font-style: italic;
+   font-family: monospace;
+}
+  .cont {
+    position: absolute;
+    top: 0;
+    text-decoration:wavy;
+    font-family:monospace;
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: greenyellow(235, 229, 35);
+    display: inline-block;
+    font-weight: 900px;  
+  }
+  .hr1{
+   border: 2px solid greenyellow; 
+  }
+  .cont2{
+    position:absolute;
+    top:500px;
+    width: 300px;
+  }
+  button {
+    position: absolute;
+    top:52.5%;
+    right:42.5%;
+    font-family: monospace;
+    padding: 10px;
+    cursor: pointer;
+    background-color:black;
+    border: 2px solid greenyellow;
+    color: greenyellow;
+  }
+  #result {
+    font-weight: bold;
+    position: absolute;
+    top:60%;
+  }
+  button:hover{
+    background: rgb(136, 222, 7);
+    border: 2px solid black;
+    color: black;
+    box-shadow: 5px 2px 0 rgb(39, 39, 39);
+  }
+  span{
+    font-size: 30px;
+  }
